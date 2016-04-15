@@ -1,0 +1,41 @@
+newcoin.sh
+nohup.out
+src/*.exe
+src/asiacoin
+src/asiacoind
+src/test_asiacoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.asiacoin
+src/*coind
+
+*.qm
+Makefile
+asiacoin-qt
+Quarkcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+asiacoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
+*.Debug
+*.Release
+*.pro.*
+*_plugin_import.*
+release
